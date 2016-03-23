@@ -10,5 +10,6 @@ public:
 	~DeckOfCards2();
 	DeckOfCards2 reset();
 	void shuffle();
+	Card draw();
 };
 
