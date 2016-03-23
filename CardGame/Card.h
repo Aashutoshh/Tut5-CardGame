@@ -8,6 +8,7 @@ private:
 	int number;
 	string colour;
 public:
+	Card();
 	Card(int num , string colour);
 	int CardNumber();
 	string CardColour();

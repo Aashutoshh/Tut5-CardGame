@@ -9,7 +9,10 @@ Card::Card(int num , string col)
 	number = num;
 	colour = col;
 }
+Card::Card()
+{
 
+}
 
 Card::~Card()
 {
