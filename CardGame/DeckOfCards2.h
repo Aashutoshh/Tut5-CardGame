@@ -12,5 +12,7 @@ public:
 	void shuffle();
 	Card draw();
 	void printDeck();
+	void peek();
+	int numberOfCards();
 };
 

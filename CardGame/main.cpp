@@ -17,6 +17,9 @@ using namespace std;
 			cout << "After draw" << endl;
 			deck.printDeck();
 
-			
+			cout << "Peek " << endl;
+			deck.peek();
+
+
 
 	}

@@ -46,10 +46,18 @@ DeckOfCards2::DeckOfCards2()
 	 return temp;
  }
 
+ void DeckOfCards2::peek(){
+	 deck[noOfCardsLeft-1].print();
+ }
+
  void DeckOfCards2::printDeck(){
 	 for (int i = 0; i < noOfCardsLeft; i++){
 		 deck[i].print();
 	 }
+ }
+
+ int DeckOfCards2::numberOfCards(){
+	 return noOfCardsLeft;
  }
 
 DeckOfCards2::~DeckOfCards2()
