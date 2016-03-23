@@ -11,5 +11,6 @@ public:
 	DeckOfCards2 reset();
 	void shuffle();
 	Card draw();
+	void printDeck();
 };
 

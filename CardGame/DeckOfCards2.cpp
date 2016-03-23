@@ -41,15 +41,19 @@ DeckOfCards2::DeckOfCards2()
 
  Card DeckOfCards2::draw(){
 	 Card temp;
-	 temp = deck[0];
-	 for (int i = 0; i < noOfCardsLeft; i++){
-		 deck[i] = deck[i + 1];
-	 }
-	 delete &deck[noOfCardsLeft - 1];
+	 temp = deck[noOfCardsLeft-1];
+	 noOfCardsLeft--;
 	 return temp;
+ }
+
+ void DeckOfCards2::printDeck(){
+	 for (int i = 0; i < noOfCardsLeft; i++){
+		 deck[i].print();
+	 }
  }
 
 DeckOfCards2::~DeckOfCards2()
 {
+	
 }
 
